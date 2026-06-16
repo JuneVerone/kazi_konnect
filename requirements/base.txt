@@ -1,0 +1,8 @@
+django==5.0.6 # for the web framework, not to be used in production
+djangorestframework==3.15.2 # for building the API, not to be used in production
+djangorestframework-simplejwt==5.3.1 # for JWT token handling, not to be used in production
+psycopg2-binary==2.9.9 # for PostgreSQL database connectivity, not to be used in production
+python-decouple==3.8 # for environment variable management, not to be used in production
+django-filter==24.2 # for filtering queryset, not to be used in production
+drf-spectacular==0.27.2 # for API documentation, not to be used in production
+Pillow==10.3.0 # for image processing, not to be used in production
