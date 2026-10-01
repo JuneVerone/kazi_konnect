@@ -39,3 +39,4 @@ class CustomUserAdmin(UserAdmin):
 class FreelancerProfileAdmin(admin.ModelAdmin):
     list_display  = ['user', 'title', 'hourly_rate', 'rating_avg', 'jobs_completed']
     search_fields = ['user__email', 'user__full_name', 'title']
+    
